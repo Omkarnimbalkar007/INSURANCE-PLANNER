@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="./Insurance.css"/>
+    <meta charset="UTF-8">
+    
+</head>
+<body>
+    <script src="script.js"></script>
+    <nav class="nav-bar">
+        <h1><big>Welcome to LIFE INSURANCE</big></h1>
+    </nav>
+    <div class="lifeimg">
+        <img src="life.jpg" alt="logo" >
+    </div>
+<div class="box">
+    <div id="form">
+        <form>
+           <label for="salary">Enter your annual income: </label>
+           <input type="text" name="salary" required><br><br>
+            
+           <label for="qualification">Enter your Qualification: </label>
+           <input type="text" name="qualification" required><br><br>
+
+
+   <div class="G">
+        <label for="gender-male" data-filter="ICICI">Male</label>
+        <input type="radio" name="gender-choice" value="choice-1">
+
+        <label for="gender-female" data-filter="MAX">Female</label>
+        <input type="radio" name="gender-choice" value="choice-2">
+
+        <label for="gender-other" data-filter="TOTAL">Other</label>
+        <input type="radio" name="gender-choice" value="choice-3">
+    </div><br>
+    <div>
+            <label for="insure">Who to insure?</label>
+            <select name="insure">
+                <option value="0" selected disabled></option> 
+                 <option value="insure-me">Me</option>
+                 <option value="insure-me and wife">Me and partner</option>
+                 <option value="insure-children">Me and partner and 1or 2 children</option>
+                 <option value="insure-parents">My parents</option>
+                 
+            </select><br><br>
+    </div>
+    
+    <div>
+        <label for="occupation">Occupation type:</label>
+        <select name="occupation">
+            <option value="0" selected disabled></option> 
+             <option value="salaried">Salaried</option>
+             <option value="self-employed">Self Employed</option>
+             
+        </select><br><br>
+    </div>
+    <div>
+        <label for="smoking">Do you smoke or chew tobacco?</label>
+        <select name="smoking">
+            <option value="0" selected disabled> </option> 
+             <option value="smoking-yes">yes</option>
+             <option value="smoking-no">no</option>
+             
+        </select><br><br>
+    </div>
+
+    <div>
+        <label for="resident">Resident of Maharashtra</label>
+        <select name="resident">
+            <option value="0" selected disabled> </option> 
+             <option value="resident-yes">yes</option>
+             <option value="resident-no">no</option>
+             
+        </select><br><br>
+    </div>
+
+    <label for="pincode">Enter the pin code: </label>
+    <input type="text" name="pincode" required><br><br>
+     
+    <div>
+        <label for="illness">Does any member have an existing illness or medical history? </br><b>This helps us find plans that cover your condition and avoid claim rejection</b></label>
+        <select name="illness">
+            <option value="0" selected disabled> </option> 
+             <option value="illness-yes">yes</option>
+             <option value="illness-no">no</option>
+             
+        </select><br><br>
+
+        <label for="existing-illness">Existing illness </label>
+        <input type="text" name="existing-illness" placeholder="Blood pressure, Diabetes, Heart conditions, Asthma, Thyroid, Cancer etc."  required><br><br>
+     
+    </div>
+
+    <div>
+        <label for="covid-19">Covid-19:</label>
+        <select name="covid-19">
+            <option value="0" selected disabled> </option> 
+             <option value="covid-19-yes">Tested positive</option>
+             <option value="covid-19-no">Tested negative</option>
+             
+        </select>
+    </div>
+
+ <div>
+      <label for="agree">I do agree to all the information given in the form</label>
+      <input type="checkbox" name="agree" ><br>
+ 
+      <center><button class="btn"><a href="./Life Policy1.html">Submit</a></i></button></center>
+</div>
+    </form>
+    </div>
+</div>
+
+      </body>
+    </html>
